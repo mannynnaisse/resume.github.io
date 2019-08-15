@@ -1,0 +1,112 @@
+body{
+   background-color: aliceblue;
+   font-family:sans-serif;
+   font-size: 18px;
+   max-width:960px;
+ }
+ 
+ /*.itsMe{
+   transform: translateX(350px);
+ }*/
+
+.grid-Container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-item{
+  text-align: center;
+}
+
+html {
+ scroll-behavior: smooth;
+ }
+ 
+ nav{
+     display:flex;
+     background-color:#7fffd4;
+     width: 100vw;
+     position: sticky;
+     top:0;
+    
+ }
+ nav>a {
+   flex-grow: 1;
+   text-align:left;
+   text-decoration:none;
+ }
+ 
+ 
+ h1{
+   text-align: left;
+   color:navy;
+   display:inline-block;
+ }
+ #contactInfo{
+   text-align: left;
+   color:#000080;
+ }
+ 
+ 
+ #educationInfo{
+   text-align: left;
+   color:navy;
+ }
+ #extracurrsInfo{
+   text-align: left;
+   color:navy;
+ }
+ #workInfo{
+   text-align: left;
+   color:navy;
+ }
+ #skillsInfo{
+   text-align: left;
+   color:navy;
+ }
+ #referenceInfo{
+   text-align: left;
+   color:navy;
+ }
+ #diplomaPic{
+   width: 300px;
+   height:300px;
+   align-content:left;
+ }
+ 
+ 
+ #sayHello{
+   text-align: left;
+   color:navy;
+ }
+  .badLogo{
+   display: inline-block;
+   width:100px;
+   height:100px;
+ }
+ 
+ .thicc{
+   /*transform:scale(2) translateX(250px);*/
+   align-content: center;
+   transform:scale(2);
+   transition: ease-in .2s;
+   /*dim the backgound so that the picture stands out more*/
+   /*remember to fix the size for mobile users*/
+ }
+
+#makePdf{
+  text-decoration:none;
+}
+
+#projectLink{
+  text-decoration: none;
+}
+
+#cmwPic{
+  width:640px;
+  height:360px;
+}
+
+ul{
+  list-style: none;
+}
