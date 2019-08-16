@@ -2,20 +2,22 @@ body{
    background-color: aliceblue;
    font-family:sans-serif;
    font-size: 18px;
-   max-width:960px;
+   /* max-width:960px; */
  }
  
  /*.itsMe{
    transform: translateX(350px);
  }*/
 
-.grid-Container{
-  display: grid;
-  grid-template-columns: auto auto auto;
+.grid-container{
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 30px;
 }
 
 .grid-item{
-  text-align: center;
+ border-style: solid;
+ margin: 0%;
+ display: grid; 
 }
 
 html {
@@ -28,7 +30,6 @@ html {
      width: 100vw;
      position: sticky;
      top:0;
-    
  }
  nav>a {
    flex-grow: 1;
@@ -80,9 +81,7 @@ html {
    color:navy;
  }
   .badLogo{
-   display: inline-block;
-   width:100px;
-   height:100px;
+   display: inline;
  }
  
  .thicc{
@@ -110,3 +109,20 @@ html {
 ul{
   list-style: none;
 }
+
+h2{
+  color: #000080;
+}
+
+.button{
+  text-decoration: none;
+  background-color: #7fffd4;
+  border-style: solid;
+  border-color: black;
+  border-radius: 20%;
+}
+
+.button{
+  background-color:lightgreen;
+}
+
